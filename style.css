@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+header {
+    background: url('http://www.htmltemplates.net/preview/template_10/images/header.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    border: 5px solid #000; 
+    box-sizing: border-box;
+}
+
+#logo {
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.content-container {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.welcome-text {
+    width: 71%; 
+    background: #fff;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text h2 {
+    color: darkslategray;
+}
+
+aside {
+    width: 25%;
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px dashed darkslategray;
+    text-align: center;
+}
+
+aside h2 {
+    color: darkslategray;
+}
+
+aside ul {
+    padding: 0;
+}
+
+aside ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: darkslategray;
+}
+
+
+footer {
+    background: darkslategray;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer p {
+    color: lightgray;
+}
+
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkorange;
+}
